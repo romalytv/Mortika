@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 public class Game {
     public static void main(String[] args) {
 
-        JFrame window = new JFrame("2D Platformer");
+        JFrame window = new JFrame("Mortika");
         window.setContentPane(new GamePanel());
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
